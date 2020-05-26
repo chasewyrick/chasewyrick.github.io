@@ -1,28 +1,150 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: me.nepeta.relocateapp
+Section: Utilities
+Installed-Size: 404
+Maintainer: Nepeta
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Version: 0.1.0
+Depends: firmware (>= 9.0), me.nepeta.relocate
+Description: Application for Relocate
+Name: Relocate Application
+Author: Nepeta
+Size: 126032 bytes
+Filename: ./debs/me.nepeta.relocateapp_0.1.0_iphoneos-arm.deb
+MD5sum: 2c6d5525087851cda57eb6acc8399ed6
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+
+Package: me.nepeta.relocate
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Installed-Size: 552
+Maintainer: Nepeta
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Version: 0.1.11
+Depends: mobilesubstrate, ws.hbang.common (>= 1.11), firmware (>= 11.0), applist, com.rpetrich.rocketbootstrap (>= 0.1.7)
+Description: Minimalist GPS spoofer (free)
+Name: Relocate
+Author: Nepeta
+Size: 143448 bytes
+Filename: ./debs/me.nepeta.relocate_0.1.11_iphoneos-arm.deb
+MD5sum: 2c6d5525087851cda57eb6acc8399ed6
 
+
+Package: crash-reporter
+Section: System
+Installed-Size: 1460
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.16.0-1
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Pre-Depends: firmware (>= 4.0)
+Description: Send useful crash info to developers.
+Tag: purpose::uikit, role::enduser
+Name: CrashReporter
+Homepage: http://github/ashikase/CrashReporter/
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+dev: ashikase
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+Size: 385542 bytes
+Filename: ./debs/crash-reporter_1.16.0-1_iphoneos-arm.deb
+MD5sum: c54c06a2d867a0e095b32a393eadf8b4
+
+
+Package: com.yourepo.greg0109.forwardnotifier8
+Section: Tweaks
+Maintainer: Greg0109 <greg.rabago@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: mobilesubstrate, sshpass, curl, openssh, net.limneos.libbulletin
+Description: Forward Notifications to your PC!
+Name: ForwardNotifier
+Author: Greg0109 <greg.rabago@gmail.com>
+Size: 48414 bytes
+Filename: ./debs/com.yourepo.greg0109.forwardnotifier8_1.1_iphoneos-arm.deb
+MD5sum: febc8431ef9ccb6a5ea9c72da6edacd3
+
+
+Package: com.pulandres.tetherme8
+Section: Tweaks
+Installed-Size: 2300
+Maintainer: ReJail <rejail@rejail.ru>
+Architecture: iphoneos-arm
+Version: 1.2.3
+Replaces: net.tetherme.tetherme
+Depends: firmware (>= 8.0), preferenceloader (>= 2.2.2), firmware (>= 11.0) | network-cmds
+Conflicts: net.tetherme.tetherme
+Description: More advanced modem settings
+Name: TetherMe for iOS 8+
+Author: Sam Bingner <support@tetherme.net>
+Size: 173634 bytes
+Filename: ./debs/com.pulandres.tetherme8_1.2.3_iphoneos-arm.deb
+MD5sum: 43c307c37bfe7a3589bac634dad3c09d
+
+
+Package: com.pulandres.libertylite
+Section: Tweaks
+Installed-Size: 616
+Maintainer: Pulandres
+Architecture: iphoneos-arm
+Version: 0.2.12b
+Depends: mobilesubstrate, preferenceloader, applist
+Conflicts: com.ryleyangus.liberty, com.ryleyangus.libertylite
+Description: A general purpose jailbreak detection bypass patch.
+Name: Liberty Lite(Beta)
+Author: Ryley Angus
+Depiction: https://repo.pulandres.me/index.php?pid=477
+SileoDepiction: https://repo.pulandres.me/sileo.php?pid=477
+Icon: file:///Library/PreferenceBundles/LibertyPref.bundle/LibertyPref.png
+Size: 82308 bytes
+Filename: ./debs/com.pulandres.libertylite_0.2.12b_iphoneos-arm.deb
+MD5sum: 3b976284ff3d1496ede6c3ddc4c21c52
+
+
+Package: com.pulandres.harpy
+Section: System
+Installed-Size: 12848
+Maintainer: Pulandres
+Architecture: iphoneos-arm
+Version: 2.0.1
+Depends: firmware (>= 9.0), network-cmds
+Description: Control your network with ease.
+Name: Harpy R
+Author: midnightchips <midnightchips@gmail.com>
+Depiction: https://repo.pulandres.me/index.php?pid=493
+SileoDepiction: https://repo.pulandres.me/sileo.php?pid=493
+Icon: file:///Applications/harpy.app/AppIcon29x29@2x.png
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Size: 6607552 bytes
+Filename: ./debs/com.pulandres.harpy_2.0.1_iphoneos-arm.deb
+MD5sum: abbcd79db78d19f6253197b1e216dafa
+
+Package: com.moski.successiondown
+Section: Utilities
+Maintainer: Samg_is_a_Ninja, Moski
+Architecture: iphoneos-arm
+Version: 0.1.5
+Depends: firmware-sbin, rsync
+Description: Tether downgrade iOS on device
+Name: SuccessionDown
+Author: Samg_is_a_Ninja, Moski
+Icon: file:///Applications/SuccessionDown.app/AppIcon60x60@3x.png
+Size: 881850 bytes
+Filename: ./debs/com.moski.successiondown_0.1.5_iphoneos-arm.deb
+MD5sum: b05d13515dd5e633b564f31d93885b5a
+
+
+Package: com.julioverne.ext3nder-installer
+Section: Utilities
+Maintainer: Julio
+Architecture: iphoneos-arm
+Version: 022b
+Depends: mobilesubstrate
+Pre-Depends: ldid, unzip, coreutils, zip, sed
+Conflicts: com.julioverne.ext3nder
+Description: Cydia Extender Installer With Extra Features
+Name: Ext3nder Installer
+Author: julioverne
+Homepage: http://twitter.com/ijulioverne
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
+Size: 45710 bytes
+Filename: ./debs/com.julioverne.ext3nder-installer_022b_iphoneos-arm.deb
+MD5sum: 955441588e68fb8719b79e74cbb511f3
