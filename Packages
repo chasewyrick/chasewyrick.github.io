@@ -247,3 +247,23 @@ Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimpor
 Size: 1440830 bytes
 Filename: ./debs/com.julioverne.mimport_0.0~beta38_iphoneos-arm.deb
 MD5sum: 003f051d0777251aa2f61063e3ce74f7
+
+Package: ws.hbang.newterm2
+Section: Terminal Support
+Installed-Size: 6792
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm
+Version: 2.4
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Description: A powerful terminal app for iOS
+Name: NewTerm (iOS 10 – 13)
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Support: https://hashbang.productions/support/
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Size: 3201766 bytes
+Filename: ./debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+MD5sum: bd3a5a4b417f88f2188fa972bf0d86b5
