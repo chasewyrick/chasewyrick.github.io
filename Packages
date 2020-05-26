@@ -148,3 +148,102 @@ Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nd
 Size: 45710 bytes
 Filename: ./debs/com.julioverne.ext3nder-installer_022b_iphoneos-arm.deb
 MD5sum: 955441588e68fb8719b79e74cbb511f3
+
+Package: com.julioverne.cydown
+Section: Tweaks
+Maintainer: Julio
+Architecture: iphoneos-arm
+Version: 7.1.0
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Description: Cydia Download Manager & Extra Features!
+Name: CyDown
+Author: julioverne <julioverne@me.com>
+Homepage: http://twitter.com/ijulioverne
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Size: 4324982 bytes
+Filename: ./debs/com.julioverne.cydown_7.1.0_iphoneos-arm.deb
+MD5sum: 4bcc5abb4ce860420277d464af8b85ab
+
+Package: com.iwazowski.iweppro5
+Section: Networking
+Installed-Size: 2011
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 8.8.5-371
+Depends: firmware (>= 5.0)
+Description: First iOS WiFi Auditor Application
+Author: Waz <m.wazowski.00@gmail.com>
+Name: iWep PRO 8
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: wazowski
+Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
+Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Size: 924812 bytes
+Filename: ./debs/com.iwazowski.iweppro5_8.8.5-371_iphoneos-arm.deb
+MD5sum: b20d3a0cfbd92c6d6193877a5f6b9e38
+
+Package: co.dynastic.tsssaver
+Section: Utilities
+Installed-Size: 444
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Architecture: iphoneos-arm
+Version: 1.2.0
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Name: TSS Saver
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
+Author: Jamie Bishop <jamie@dynastic.co>
+Size: 177540 bytes
+Filename: ./debs/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
+MD5sum: bf5a91d0c275d568b17ed418c45d7e96
+
+Package: ru.rejail.filza
+Section: Utilities
+Installed-Size: 28231
+Maintainer: ReJail <rejail@rejail.ru>
+Architecture: iphoneos-arm
+Version: 3.7.4-14k
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Description: Файловый менеджер для iOS
+Name: Filza File Manager
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
+Size: 12843982 bytes
+Filename: ./debs/ru.rejail.filza_3.7.4-14k_iphoneos-arm.deb
+MD5sum: ce491b82cecdede397f9a8294d571190
+
+Package: com.opa334.choicy
+Section: Tweaks
+Installed-Size: 776
+Maintainer: opa334 <opa334@protonmail.com>
+Architecture: iphoneos-arm
+Version: 1.2.1
+Depends: mobilesubstrate, applist
+Description: Advanced Tweak Configuration!
+Name: Choicy
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Author: opa334 <opa334@protonmail.com>
+Size: 146948 bytes
+Filename: ./debs/com.opa334.choicy_1.2.1_iphoneos-arm.deb
+MD5sum: 0c50b20b7486caa94d844ca096949b7f
+
+Package: com.julioverne.mimport
+Section: Tweaks
+Maintainer: Julio
+Architecture: iphoneos-arm
+Version: 0.0~beta38
+Depends: mobilesubstrate, unzip, unrar
+Description: Media Importer Directly From Music App
+Name: MImport
+Author: julioverne <julioverne@me.com>
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimport
+Size: 1440830 bytes
+Filename: ./debs/com.julioverne.mimport_0.0~beta38_iphoneos-arm.deb
+MD5sum: 003f051d0777251aa2f61063e3ce74f7
