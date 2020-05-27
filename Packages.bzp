@@ -307,85 +307,15 @@ Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Name: NewTerm (iOS 10 – 13)
 Support: https://hashbang.productions/support/
 
-Package: ru.rejail.filza
-Section: Utilities
-Installed-Size: 28231
-Maintainer: ReJail <rejail@rejail.ru>
-Architecture: iphoneos-arm
-Version: 3.7.4-14k
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit
-Description: Файловый менеджер для iOS
-Name: Filza File Manager
-Author: TIGI Software
-Depiction: https://rejail.ru/depiction.php?file=filza
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
-
-Package: co.dynastic.tsssaver
-Section: Utilities
-Installed-Size: 444
-Maintainer: Jamie Bishop <jamie@dynastic.co>
-Architecture: iphoneos-arm
-Version: 1.2.0
-Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
-Description: A one-click tool to save blobs using TSSsaver.1conan.com
-Name: TSS Saver
-Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
-Author: Jamie Bishop <jamie@dynastic.co>
-
-Package: com.iwazowski.iweppro5
+Package: openssh
+Priority: important
 Section: Networking
-Installed-Size: 2011
-Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 9824
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
 Architecture: iphoneos-arm
-Version: 8.8.5-371
-Depends: firmware (>= 5.0)
-Description: First iOS WiFi Auditor Application
-Author: Waz <m.wazowski.00@gmail.com>
-Name: iWep PRO 8
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
-Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
-Sponsor: thebigboss.org <http://thebigboss.org>
-dev: wazowski
-Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
-Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
-
-Package: crash-reporter
-Section: System
-Installed-Size: 1460
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Architecture: iphoneos-arm
-Version: 1.16.0-1
-Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
-Pre-Depends: firmware (>= 4.0)
-Description: Send useful crash info to developers.
-Tag: purpose::uikit, role::enduser
-Name: CrashReporter
-Homepage: http://github/ashikase/CrashReporter/
-Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
-dev: ashikase
-Author: Lance Fetters (ashikase) <support@ashikase.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-
-Package: com.julioverne.mimport
-Section: Tweaks
-Maintainer: Julio
-Architecture: iphoneos-arm
-Version: 0.0~beta38
-Depends: mobilesubstrate, unzip, unrar
-Description: Media Importer Directly From Music App
-Name: MImport
-Author: julioverne <julioverne@me.com>
-Homepage: http://twitter.com/ijulioverne
-Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
-Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimport
-
-Package: com.yourepo.greg0109.forwardnotifier8
-Section: Tweaks
-Maintainer: Greg0109 <greg.rabago@gmail.com>
-Architecture: iphoneos-arm
-Version: 1.1
-Depends: mobilesubstrate, sshpass, curl, openssh, net.limneos.libbulletin
-Description: Forward Notifications to your PC!
-Name: ForwardNotifier
-Author: Greg0109 <greg.rabago@gmail.com>
+Version: 8.1-1
+Depends: libssl1.1.1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/

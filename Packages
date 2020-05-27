@@ -1,8 +1,8 @@
 Package: co.dynastic.tsssaver
 Version: 1.2.0
-Architecture: iphoneos-arm 
+Architecture: iphoneos-arm
 Maintainer: Jamie Bishop <jamie@dynastic.co>
-Installed-Size: 444
+Installed-Size: 444 
 Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
 Filename: ./debs/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
 Size: 177540
@@ -306,3 +306,16 @@ Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
 Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Name: NewTerm (iOS 10 – 13)
 Support: https://hashbang.productions/support/
+
+Package: openssh
+Priority: important
+Section: Networking
+Installed-Size: 9824
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Architecture: iphoneos-arm
+Version: 8.1-1
+Depends: libssl1.1.1
+Pre-Depends: dpkg (>= 1.14.25-8)
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
