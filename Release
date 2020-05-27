@@ -1,9 +1,9 @@
-Origin: Wyrick's Repo
-Label: Wyrick's Repo
+Origin: Wyrick's Beta Repo
+Label: Wyrick's Beta Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm
 Components: main
-Description: Wyrick's Repo - a cydia repo
+Description: Wyrick's Personal Beta Repo - a cydia repo (2019 - 2020)
  
