@@ -1,3 +1,20 @@
+Package: co.dynastic.tsssaver
+Version: 1.2.0
+Architecture: iphoneos-arm
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Installed-Size: 444
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Filename: ./debs/co.dynastic.tsssaver_1.2.0_iphoneos-arm.deb
+Size: 177540
+MD5sum: bf5a91d0c275d568b17ed418c45d7e96
+SHA1: 0056a3737e51921504d3504228961e484d3c0db0
+SHA256: ef7301fcbcbfe19ec0bb725c022fcf8fa21f9119359afe31ddb5544a803c1c08
+Section: Utilities
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Author: Jamie Bishop <jamie@dynastic.co>
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
+Name: TSS Saver
+
 Package: com.crak.redeb
 Version: 1.0.3
 Architecture: iphoneos-arm
@@ -12,7 +29,45 @@ Priority: extra
 Description: 利用终端提取本地已安装的插件，简单教程：终端输入“su”，然后输入你的超级密码(默认密码是:alpine)，然后输入“redeb”，一个提示（y/n），输入“y”，就能看到你本地安装的插件，每个插件前面都有序号数字，最下面输入你要提取插件的数字，回车，即可提取成功，安装包在：var/mobile/Documents/Redeb/debs！
 Name: Redeb 提取本地插件
 
+Package: com.iwazowski.iweppro5
+Version: 8.8.5-371
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 2011
+Depends: firmware (>= 5.0)
+Filename: ./debs/com.iwazowski.iweppro5_8.8.5-371_iphoneos-arm.deb
+Size: 924812
+MD5sum: b20d3a0cfbd92c6d6193877a5f6b9e38
+SHA1: a4b9469a6ca1c110c7e24ed56d22a066ec521bff
+SHA256: 43e211fc85bbd954d22bdd2d7518a683bc58fb2fed322beee3d0f42ebb304c9f
+Section: Networking
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Description: First iOS WiFi Auditor Application
+Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: Waz <m.wazowski.00@gmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Dev: wazowski
+Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
+Name: iWep PRO 8
+Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.julioverne.cydown
+Version: 7.1.0
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.cydown_7.1.0_iphoneos-arm.deb
+Size: 4324982
+MD5sum: 4bcc5abb4ce860420277d464af8b85ab
+SHA1: c7869860f0c12061ff139eeac207b142f1ca569e
+SHA256: 367944ac2b3d732fec8960e32cbfc45c0c80260858a494b885981862261db855
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
 
 Package: com.julioverne.ext3nder-installer
 Version: 022b
@@ -33,6 +88,23 @@ Author: julioverne
 Depiction: http://julioverne.github.io/description.html?id=com.julioverne.ext3nder-installer
 Name: Ext3nder Installer
 
+Package: com.julioverne.mimport
+Version: 0.0~beta38
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: mobilesubstrate, unzip, unrar
+Filename: ./debs/com.julioverne.mimport_0.0~beta38_iphoneos-arm.deb
+Size: 1440830
+MD5sum: 003f051d0777251aa2f61063e3ce74f7
+SHA1: dd5d63d3cb75d7be96d640b6bded0ac50bc2a041
+SHA256: bc3515d63a8aa6e95d56c76a465b66ebd1191ad793d4880f44e864e6a0fa825b
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Media Importer Directly From Music App
+Author: julioverne <julioverne@me.com>
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimport
+Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
+Name: MImport
 
 Package: com.moski.successiondown
 Version: 0.1.5
@@ -50,7 +122,22 @@ Author: Samg_is_a_Ninja, Moski
 Icon: file:///Applications/SuccessionDown.app/AppIcon60x60@3x.png
 Name: SuccessionDown
 
-
+Package: com.opa334.choicy
+Version: 1.2.1
+Architecture: iphoneos-arm
+Maintainer: opa334 <opa334@protonmail.com>
+Installed-Size: 776
+Depends: mobilesubstrate, applist
+Filename: ./debs/com.opa334.choicy_1.2.1_iphoneos-arm.deb
+Size: 146948
+MD5sum: 0c50b20b7486caa94d844ca096949b7f
+SHA1: 35cab775be3baaf6f5267a9413ef97a9717116b7
+SHA256: a79321741c43cbd2f8538e01e765cb731877aae201a5663431365d262fb32123
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: https://opa334.github.io/depic/Choicy/index.html
+Name: Choicy
 
 Package: com.pulandres.harpy
 Version: 2.0.1
@@ -179,19 +266,126 @@ Description: Application for Relocate
 Author: Nepeta
 Name: Relocate Application
 
-Package: ws.hbang.newterm2
-Section: Terminal Support
-Installed-Size: 6792
-Maintainer: HASHBANG Productions <support@hbang.ws>
+Package: ru.rejail.filza
+Version: 3.7.4-14k
 Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 28231
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/ru.rejail.filza_3.7.4-14k_iphoneos-arm.deb
+Size: 12843982
+MD5sum: ce491b82cecdede397f9a8294d571190
+SHA1: 85300d242e3a70ceabd2ae6c1a5344367ab0c72c
+SHA256: be34f091b6389aea2ea965b7b46b35e3ad8557655c095aa1a5fb6fe9e7b5a835
+Section: Utilities
+Description: Файловый менеджер для iOS
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Name: Filza File Manager
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
+
+Package: ws.hbang.newterm2
 Version: 2.4
-Replaces: ws.hbang.newterm, com.lint.ntarrows
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6792
 Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
 Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+Size: 3201766
+MD5sum: bd3a5a4b417f88f2188fa972bf0d86b5
+SHA1: 8b4f10040ca491bfd95fb5ab11013473bb317874
+SHA256: 87d13d0895f180985c9f39a8d7e5544123377030a2b050fbd558e0feffcba99c
+Section: Terminal Support
 Description: A powerful terminal app for iOS
-Name: NewTerm (iOS 10 – 13)
-Author: HASHBANG Productions <support@hbang.ws>
-Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
-Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
-Support: https://hashbang.productions/support/
 Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm (iOS 10 – 13)
+Support: https://hashbang.productions/support/
+
+Package: ru.rejail.filza
+Section: Utilities
+Installed-Size: 28231
+Maintainer: ReJail <rejail@rejail.ru>
+Architecture: iphoneos-arm
+Version: 3.7.4-14k
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Description: Файловый менеджер для iOS
+Name: Filza File Manager
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
+
+Package: co.dynastic.tsssaver
+Section: Utilities
+Installed-Size: 444
+Maintainer: Jamie Bishop <jamie@dynastic.co>
+Architecture: iphoneos-arm
+Version: 1.2.0
+Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
+Description: A one-click tool to save blobs using TSSsaver.1conan.com
+Name: TSS Saver
+Depiction: https://repo.nullpixel.uk/depiction/co.dynastic.tsssaver/
+Author: Jamie Bishop <jamie@dynastic.co>
+
+Package: com.iwazowski.iweppro5
+Section: Networking
+Installed-Size: 2011
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 8.8.5-371
+Depends: firmware (>= 5.0)
+Description: First iOS WiFi Auditor Application
+Author: Waz <m.wazowski.00@gmail.com>
+Name: iWep PRO 8
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=iweppro5Dp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: wazowski
+Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
+Tag: purpose::uikit, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+
+Package: crash-reporter
+Section: System
+Installed-Size: 1460
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Architecture: iphoneos-arm
+Version: 1.16.0-1
+Depends: coreutils, dpkg, grep, jp.ashikase.libcrashreport (>= 1.1.0), jp.ashikase.libpackageinfo (>= 1.1.0), jp.ashikase.techsupport (>= 1.5.0), mobilesubstrate, preferenceloader
+Pre-Depends: firmware (>= 4.0)
+Description: Send useful crash info to developers.
+Tag: purpose::uikit, role::enduser
+Name: CrashReporter
+Homepage: http://github/ashikase/CrashReporter/
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=crashreporterData
+dev: ashikase
+Author: Lance Fetters (ashikase) <support@ashikase.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.julioverne.mimport
+Section: Tweaks
+Maintainer: Julio
+Architecture: iphoneos-arm
+Version: 0.0~beta38
+Depends: mobilesubstrate, unzip, unrar
+Description: Media Importer Directly From Music App
+Name: MImport
+Author: julioverne <julioverne@me.com>
+Homepage: http://twitter.com/ijulioverne
+Icon: file:///Library/PreferenceBundles/MImport.bundle/icon@2x.png
+Depiction: http://julioverne.github.io/description.html?id=com.julioverne.mimport
+
+Package: com.yourepo.greg0109.forwardnotifier8
+Section: Tweaks
+Maintainer: Greg0109 <greg.rabago@gmail.com>
+Architecture: iphoneos-arm
+Version: 1.1
+Depends: mobilesubstrate, sshpass, curl, openssh, net.limneos.libbulletin
+Description: Forward Notifications to your PC!
+Name: ForwardNotifier
+Author: Greg0109 <greg.rabago@gmail.com>

@@ -1,6 +1,6 @@
 Package: co.dynastic.tsssaver
 Version: 1.2.0
-Architecture: iphoneos-arm
+Architecture: iphoneos-arm 
 Maintainer: Jamie Bishop <jamie@dynastic.co>
 Installed-Size: 444
 Depends: com.modmyi.libswift4 (>= 4.0.3), firmware (>= 8.0)
@@ -306,17 +306,3 @@ Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
 Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
 Name: NewTerm (iOS 10 – 13)
 Support: https://hashbang.productions/support/
-
-Package: ru.rejail.filza
-Section: Utilities
-Installed-Size: 28231
-Maintainer: ReJail <rejail@rejail.ru>
-Architecture: iphoneos-arm
-Version: 3.7.4-14k
-Depends: zip, unzip, gzip, unrar, p7zip
-Conflicts: com.tigisoftware.filza64bit
-Description: Файловый менеджер для iOS
-Name: Filza File Manager
-Author: TIGI Software
-Depiction: https://rejail.ru/depiction.php?file=filza
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=filza
