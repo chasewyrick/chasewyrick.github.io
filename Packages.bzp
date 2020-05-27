@@ -178,3 +178,20 @@ Section: Utilities
 Description: Application for Relocate
 Author: Nepeta
 Name: Relocate Application
+
+Package: ws.hbang.newterm2
+Section: Terminal Support
+Installed-Size: 6792
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Architecture: iphoneos-arm
+Version: 2.4
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Description: A powerful terminal app for iOS
+Name: NewTerm (iOS 10 – 13)
+Author: HASHBANG Productions <support@hbang.ws>
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Support: https://hashbang.productions/support/
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
