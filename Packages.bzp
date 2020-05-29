@@ -1,5 +1,5 @@
 Package: co.dynastic.tsssaver
-Version: 1.2.0 
+Version: 1.2.0
 Architecture: iphoneos-arm
 Maintainer: Jamie Bishop <jamie@dynastic.co>
 Installed-Size: 444
@@ -50,6 +50,24 @@ Dev: wazowski
 Icon: file:///Applications/iweppro5.app/iWepPROIcon_57px.png
 Name: iWep PRO 8
 Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.julioverne.cydown
+Version: 7.1.0
+Architecture: iphoneos-arm
+Maintainer: Julio
+Depends: coreutils-bin, coreutils, mobilesubstrate, preferenceloader
+Filename: ./debs/com.julioverne.cydown_7.1.0_iphoneos-arm.deb
+Size: 4324982
+MD5sum: 4bcc5abb4ce860420277d464af8b85ab
+SHA1: c7869860f0c12061ff139eeac207b142f1ca569e
+SHA256: 367944ac2b3d732fec8960e32cbfc45c0c80260858a494b885981862261db855
+Section: Tweaks
+Homepage: http://twitter.com/ijulioverne
+Description: Cydia Download Manager & Extra Features!
+Author: julioverne <julioverne@me.com>
+Depiction: http://julio.hackyouriphone.org/description.html?id=com.julioverne.cydown
+Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
+Name: CyDown
 
 Package: com.julioverne.ext3nder-installer
 Version: 022b
@@ -120,6 +138,26 @@ Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: https://opa334.github.io/depic/Choicy/index.html
 Name: Choicy
+
+Package: com.pulandres.harpy
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Pulandres
+Installed-Size: 12848
+Depends: firmware (>= 9.0), network-cmds
+Filename: ./debs/com.pulandres.harpy_2.0.1_iphoneos-arm.deb
+Size: 6607552
+MD5sum: abbcd79db78d19f6253197b1e216dafa
+SHA1: 62419b5e537e9a39d1dc6fa7822e0b060afdb6c4
+SHA256: 0e060f955a4eec03bf8cc7a5a286b10e60eb2df1a582c81ea087d7f8ff069c12
+Section: System
+Description: Control your network with ease.
+Tag: compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12
+Author: midnightchips <midnightchips@gmail.com>
+Depiction: https://repo.pulandres.me/index.php?pid=493
+Icon: file:///Applications/harpy.app/AppIcon29x29@2x.png
+Name: Harpy R
+Sileodepiction: https://repo.pulandres.me/sileo.php?pid=493
 
 Package: com.pulandres.libertylite
 Version: 0.2.12b
@@ -196,6 +234,22 @@ Dev: ashikase
 Name: CrashReporter
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: cydia.kiiimo.org.netkillui11
+Version: 0.2.1-1
+Architecture: iphoneos-arm
+Maintainer: Kiiimo <support@kiiimo.org>
+Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0)
+Conflicts: eu.teggers.netkillui
+Filename: ./debs/cydia.kiiimo.org.netkillui11_0.2.1-1_iphoneos-arm.deb
+Size: 813346
+MD5sum: 6793dbb6ae43acc870cdafbf29d6c557
+SHA1: 420d74ebe667fc29f8644a2fbbfe9e5356bad7f9
+SHA256: d7f1a20ba011ea92a545cd7b7aaa75ef6eebdc31208e26369a23c4c24d5f902f
+Section: iOS 12
+Author: Teggers
+Name: netKillUIbeta (iOS 11)
+Sponsor: kiiimo.org <http://kiiimo.org>
+
 Package: me.nepeta.relocate
 Version: 0.1.11
 Architecture: iphoneos-arm
@@ -246,17 +300,44 @@ Description: secure remote access between machines
 Depiction: http://cydia.saurik.com/info/openssh/
 Name: OpenSSH
 
-Package: cydia.kiiimo.org.netkillui11
-Section: iOS 12
-Maintainer: Kiiimo <support@kiiimo.org>
+Package: ru.rejail.filza
+Version: 3.7.4-14k
 Architecture: iphoneos-arm
-Version: 0.2.1-1
-Depends: adv-cmds, grep, network-cmds, shell-cmds, gawk, coreutils, firmware (>= 11.0)
-Conflicts: eu.teggers.netkillui
-Name: netKillUIbeta (iOS 11)
-Author: Teggers
-Sponsor: kiiimo.org <http://kiiimo.org>
-Size: 813346 bytes
-MD5sum: 6793dbb6ae43acc870cdafbf29d6c557
-SHA1: 420d74ebe667fc29f8644a2fbbfe9e5356bad7f9
-SHA256: d7f1a20ba011ea92a545cd7b7aaa75ef6eebdc31208e26369a23c4c24d5f902f
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 28231
+Depends: zip, unzip, gzip, unrar, p7zip
+Conflicts: com.tigisoftware.filza64bit
+Filename: ./debs/ru.rejail.filza_3.7.4-14k_iphoneos-arm.deb
+Size: 12843982
+MD5sum: ce491b82cecdede397f9a8294d571190
+SHA1: 85300d242e3a70ceabd2ae6c1a5344367ab0c72c
+SHA256: be34f091b6389aea2ea965b7b46b35e3ad8557655c095aa1a5fb6fe9e7b5a835
+Section: Utilities
+Description: Файловый менеджер для iOS
+Author: TIGI Software
+Depiction: https://rejail.ru/depiction.php?file=filza
+Name: Filza File Manager
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=filza
+
+Package: ws.hbang.newterm2
+Version: 2.4
+Architecture: iphoneos-arm
+Maintainer: HASHBANG Productions <support@hbang.ws>
+Installed-Size: 6792
+Depends: firmware (>= 10.0), firmware (>= 12.2) | org.swift.libswift, ws.hbang.common (>= 1.13), bash, coreutils, ncurses, system-cmds, com.linusyang.localeutf8
+Conflicts: ws.hbang.newterm, com.lint.ntarrows
+Replaces: ws.hbang.newterm, com.lint.ntarrows
+Filename: ./debs/ws.hbang.newterm2_2.4_iphoneos-arm.deb
+Size: 3201766
+MD5sum: bd3a5a4b417f88f2188fa972bf0d86b5
+SHA1: 8b4f10040ca491bfd95fb5ab11013473bb317874
+SHA256: 87d13d0895f180985c9f39a8d7e5544123377030a2b050fbd558e0feffcba99c
+Section: Terminal Support
+Description: A powerful terminal app for iOS
+Tag: compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Author: HASHBANG Productions <support@hbang.ws>
+Depiction: https://repo.chariz.com/package/ws.hbang.newterm2/
+Icon: https://chariz.com/cdn/icon/newterm/icon@3x.png
+Name: NewTerm (iOS 10 – 13)
+Support: https://hashbang.productions/support/
+
