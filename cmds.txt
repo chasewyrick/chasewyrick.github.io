@@ -1,4 +1,4 @@
-user:~/ $ cd /Users/nicholaswyrick/Documents/GitHub/wyrick.chase.github.io/chasewyrick.github.io
+user:~/ $ cd 
 
 user:~/repo $ dpkg-scanpackages -m ./debs > Packages
 user:~/repo $ bzip2 Packages

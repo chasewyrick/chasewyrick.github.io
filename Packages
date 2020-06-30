@@ -3550,6 +3550,28 @@ Icon: https://repo-cdn.dynastic.co/322474001903386624.b35bb577f3d9a8e69ad466946d
 Name: SettingsWidgets
 Sileodepiction: https://mainrepo.org/sileo/814
 
+Package: org.mr.tetherme8
+Version: 2.0.3
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Installed-Size: 2876
+Pre-Depends: mobilesubstrate (>= 0.9.5101)
+Depends: firmware (>= 8.0), firmware (>= 11.0) | network-cmds, mobilesubstrate (<= 0.9.6301) | mobilesubstrate (= 0.9.7020) | mobilesubstrate (= 0.9.7033) | mobilesubstrate (>= 0.9.7034) | com.ex.substitute (>= 0.1.4), mobilesubstrate (<< 99.0) | com.ex.libsubstitute (>= 0.1.1)
+Conflicts: net.tetherme.tetherme
+Replaces: net.tetherme.tetherme
+Filename: ./debs/org.mr.tetherme8_2.0.3_iphoneos-arm.deb
+Size: 473468
+MD5sum: ee24b9c548ec3d6cadcd3200d12bc464
+SHA1: 4c2c497954bec77dac28d14fb9723ff4f2c5b477
+SHA256: 72aa6d73c7f91e548b17bada6f2367478c5fd68bed63a88ac2e5ddd0674cde6e
+Section: Networking
+Description: Dynamically enables native tethering for iOS8+ devices.  This should work on any carrier without the need for customized bundles or preferences.
+Author: TetherMe
+Depiction: https://mainrepo.org/package/1122
+Icon: https://cydia.saurik.com/icon/net.tetherme.tetherme8.png
+Name: TetherMe for iOS8+
+Sileodepiction: https://mainrepo.org/sileo/1122
+
 Package: ru.rejail.filza
 Version: 3.7.4-14k
 Architecture: iphoneos-arm
@@ -3602,6 +3624,25 @@ SHA1: f8119149a4b147db34f4eb60ade33a61954960b5
 SHA256: 68727d4625f1edde310a83521ddca5e17129da199bff9159792e2ab7bad17108
 Section: Tweaks
 Description: \"Картинка в Картинке\" (PiP) для многих стримминговых программ
+Author: tcbrooks <thesaltcracka@gmail.com>
+Depiction: https://rejail.ru/depiction.php?file=titan
+Icon: https://chariz.com/cdn/icon/titan/icon@3x.png
+Name: Titan
+Sileodepiction: https://rejail.ru/sileo/depiction.php?file=titan
+
+Package: ru.rj.titan
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 606
+Depends: firmware (>= 13.0), mobilesubstrate, preferenceloader, com.rpetrich.rocketbootstrap (>= 1.0.2) | firmware (<< 7.0)
+Conflicts: com.blackhole.gesto13, com.spicat.youpip
+Filename: ./debs/ru.rj.titan_1.0.2_iphoneos-arm.deb
+Size: 149156
+MD5sum: e7262ae632a7e4a9812877eed09a710e
+SHA1: 17536aaef7337d60c2f2aa096dfaa08404a09694
+SHA256: f11726614d74be6cbb296214582ce34807ee3dec457311bf5131f3cb58a5b0ae
+Section: Tweaks
 Author: tcbrooks <thesaltcracka@gmail.com>
 Depiction: https://rejail.ru/depiction.php?file=titan
 Icon: https://chariz.com/cdn/icon/titan/icon@3x.png
